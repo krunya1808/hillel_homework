@@ -40,8 +40,7 @@ print('new_a1: ', id(a1))
 
 print('new_a2_type: ', type(a2))
 print('new_a2: ', id(a2))
-#a1 = (a1, )
-#a2 = (a2, )
+
 
 
 
