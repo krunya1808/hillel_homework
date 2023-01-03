@@ -7,9 +7,9 @@ n = int(input('Enter number: '))
 i = 1
 suma = 0
 while i <= n:
-    if i % 3 != 0:
+    if i % 3:
         print(i)
-    suma += i**3
+        suma += i**3
     i += 1
 print('Sum is: ', suma)
 

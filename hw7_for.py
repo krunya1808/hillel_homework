@@ -8,6 +8,6 @@ suma = 0
 for i in range(i, n+1):
     if i % 3 != 0:
         print(i)
-    suma += i**3
+        suma += i**3
     i += 1
 print('Sum is: ', suma)
