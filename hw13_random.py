@@ -8,7 +8,7 @@ def game_guess():
     print("Your number is: ", guess_num)
     if guess_num == random_numb:
         print("Congrats, you win!")
-    if guess_num != random_numb:
+    else:
         print("Sorry, you lose")
 game_guess()
 
