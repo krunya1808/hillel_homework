@@ -42,4 +42,3 @@ while True:
         break
     else:
         print(detect_numbers(a))
-
