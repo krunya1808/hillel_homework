@@ -2,7 +2,7 @@
 
 import random
 def game_guess():
-    random_numb = random.randint(1, 50)
+    random_numb = random.randint(1, 5)
     print("Program number is: ", random_numb)
     guess_num = int(input("Choose number from 1 to 50: "))
     print("Your number is: ", guess_num)

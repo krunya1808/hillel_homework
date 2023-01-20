@@ -5,3 +5,4 @@
 # Удалить эти зависимости и затем установить их из файла requirements.txt.
 
 import requests
+
