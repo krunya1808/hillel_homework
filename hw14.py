@@ -27,13 +27,35 @@ def detect_numbers(a):
 
     if a.find('-') != -1:
         if a.find(',') != -1 or a.find('.') != -1:
+            if float(a) == -0.00:
+                return 'You enter 0!'
             return 'You enter negative drob number ' + a
         return 'You enter negative whole number ' + a
 
+    # if a.find(',') != -1 or a.find('.') != -1:
+    #     float_val = float(a.replace(',', '.'))
+    #     if float_val > 0:
+    #         return 'You enter positive drob number ' + a
+    #     float_val_s = str(float_val)
+    #     if float_val_s.isalpha():
+    #         return 'Incorrect input:'
+    #     return 'You enter 0!'
     if a.find(',') != -1 or a.find('.') != -1:
-        return 'You enter positive drob number ' + a
+        if float(a.isalpha()):
+            print('Incorrect input:', a)
+        return a
 
 
+
+
+
+
+
+
+
+
+
+    # return 'Incorrect input:' + a
 while True:
     a = input('Enter number or "выход", "exit", "quit", "e","q": ')
     a = a.lower()
