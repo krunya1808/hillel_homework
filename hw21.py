@@ -12,7 +12,7 @@ class Auto(object):
     mark = "Prius"
     weight = 100
 
-    def __int__(self, brand, age, mark):
+    def __init__(self, brand, age, mark):
         self.brand = brand
         self.age = age
         self.mark = mark
