@@ -134,6 +134,5 @@ def repeaters_first_name():
 
 
 repeaters_first_name()
-
 result = get_unique_customers_by_sql()
 print(result)
